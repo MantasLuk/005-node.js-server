@@ -1,0 +1,17 @@
+{
+  "name": "005-node.js-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "server": "node . NODE_ENV=production",
+    "test": "node ./index.js NODE_ENV=test"
+  },
+  "keywords": [],
+  "author": "Mantas <mantasluk7@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
