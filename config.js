@@ -3,7 +3,7 @@ const environments = {};
 environments.dev = {
     name: 'Server',
     envName: 'dev',
-    httpPort: '3000',
+    httpPort: 3001,
     defaultLang: 'en',
     password: 'demo-password',
 }
@@ -11,7 +11,7 @@ environments.dev = {
 environments.production = {
     name: 'Serveris',
     envName: 'production',
-    httpPort: '4000',
+    httpPort: 4000,
     defaultLang: 'lt',
     password: 'fretr48t521e4rteye52',
 }
@@ -19,7 +19,7 @@ environments.production = {
 environments.test = {
     name: 'Serveris test',
     envName: 'test',
-    httpPort: '5000',
+    httpPort: 5000,
     defaultLang: 'ee',
     password: 'esttoo',
 }

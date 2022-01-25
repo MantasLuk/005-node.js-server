@@ -1,27 +1,9 @@
-/* 
-[projekto pavadinimas]
-[aplinkos pavadinimas]
-[default kalba]
-
-
-jeigu kodas pasileidzia is programuotojo pc, tai:
-Server
-dev
-en
-
-jeigu kodas pasileidzia is programuotojo pc, tai:
-Serveris
-production
-lt
-
-*/
-
 const server = require('./lib/server.js');
 
 const app = {};
 
 app.init = () => {
-    // pasiruosti pradinius folder'ius
+    // pasiruosti pradinius folder'ius:
 
     // pasiruosti pradinius failus
 

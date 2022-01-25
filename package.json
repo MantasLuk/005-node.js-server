@@ -1,16 +1,16 @@
 {
-  "name": "005-node.js-server",
+  "name": "34-grupe-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "server": "node . NODE_ENV=production",
-    "test": "node ./index.js NODE_ENV=test"
+    "server": "NODE_ENV=production node .",
+    "test": "NODE_ENV=test node ./index.js"
   },
   "keywords": [],
-  "author": "Mantas <mantasluk7@gmail.com>",
-  "license": "ISC",
+  "author": "Rimantas",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.15"
   }
